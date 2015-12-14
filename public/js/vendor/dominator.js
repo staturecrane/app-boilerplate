@@ -361,7 +361,7 @@ class Dominator {
             (()=>{
                 this.mounted = ()=>{
                     callMountFuncs(mounted);
-                    window.addRemoveEventListener('onload', this.mounted);
+                    window.removeEventListener('onload', this.mounted);
                 };
                 window.addEventListener('onload', this.mounted);
             })();
