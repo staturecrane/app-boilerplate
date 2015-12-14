@@ -1,4 +1,4 @@
-import {dominate} from '../public/js/vendor/dominator.js';
+import {dominate} from './dominate/dominate.js';
 
 import {main} from './components/main.js';
 
