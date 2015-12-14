@@ -1,7 +1,7 @@
 {
-  "name": "visit-history",
+  "name": "app-boilerplate",
   "version": "1.0.0",
-  "description": "Interactive web app for finding important events on today's date in history",
+  "description": "all the things I need and more",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
