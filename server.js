@@ -7,11 +7,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser   = require('body-parser');
 
 
-var port = 80;
+var port = 8080;
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost');
+//mongoose.connect('mongodb://localhost');
 
 app.use(morgan('dev')); // log every request to the console
 app.use(cookieParser()); // read cookies (needed for auth)
